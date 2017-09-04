@@ -1,0 +1,8 @@
+<%- | $sname,
+
+| -%>
+
+<VirtualHost *:80>
+	ServerName <%= $sname %>
+	DocumentRoot /var/www/public/
+</VirtualHost>
