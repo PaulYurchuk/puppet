@@ -31,9 +31,9 @@ node default {
 }
 
 node 'zserver.minsk.epam.com'{
-  include zserver
+  include role::zabbix::server 
 }
 
 node 'zagent.minsk.epam.com'{
-  include zserver::zagent 
+  include role::zabbix::agent 
 }

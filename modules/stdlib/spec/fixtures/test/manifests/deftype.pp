@@ -1,3 +1,3 @@
 define test::deftype($param = 'foo') {
-  notify { "deftype: $title": }
+  notify { "deftype: ${title}": }
 }
